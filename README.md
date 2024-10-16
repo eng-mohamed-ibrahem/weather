@@ -1,4 +1,4 @@
-# API Integration Task
+# API Integration Task (MD-Labs)
 
 Develop a simple weather app with the following functionalities:
 
@@ -24,7 +24,7 @@ Develop a simple weather app with the following functionalities:
 * Implement basic error handling for cases like invalid city name or network issues.
 * Display a user-friendly message in case of errors.
 
-## Getting Started
+### Getting Started
 
 1. Clone the repository using `git clone <git-repo-url>`.
 2. Open the project in your preferred code editor/IDE.

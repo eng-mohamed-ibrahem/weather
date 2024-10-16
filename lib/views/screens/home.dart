@@ -135,7 +135,7 @@ class _HomeState extends State<Home> {
                           .getWeatherByCityName(_controller.text);
                     },
                   ),
-                  label: const Text("Search"),
+                  label: const Text("Get Weather"),
                   icon: state.whenOrNull(
                     loading: () => SizedBox(
                       height: 15.h,

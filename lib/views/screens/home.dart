@@ -66,8 +66,19 @@ class _HomeState extends State<Home> {
                 () {
                   return state.when(
                     initial: () {
-                      return const Center(
-                        child: Text("Initial"),
+                      return Center(
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            const Icon(Icons.cloud, color: Colors.blueAccent),
+                            SizedBox(width: 5.w),
+                            const Text(
+                              "Enter your city to get the latest weather updates",
+                              textAlign: TextAlign.center,
+                              style: TextStyle(fontSize: 18),
+                            ),
+                          ],
+                        ),
                       );
                     },
                     loading: () {
